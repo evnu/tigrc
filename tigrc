@@ -1,0 +1,14 @@
+#
+# Style
+#
+
+set main-view-id = true
+set main-view-author = email-user
+
+#
+# Keybindings
+#
+
+# perform interactive rebase from tig.
+bind main R !git rebase -i %(commit)^
+bind diff R !git rebase -i %(commit)^
